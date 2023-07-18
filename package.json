@@ -2,13 +2,13 @@
   "name": "express-mesto-gha",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
     "lint": "npx eslint ."
   },
-  "author": "",
+  "author": "Kirill S",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

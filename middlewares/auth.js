@@ -8,6 +8,7 @@ const auth = (req, res, next) => {
     payload = jwt.verify(jwtToken, 'super-mega-strong-secret');
   } catch (err) {
     next(new AuthError('Вы не авторизированы'));
+    return;
   }
   req.user = payload;
   next();
